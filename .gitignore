@@ -1,0 +1,17 @@
+
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+venv/
+.venv/
+**/venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+**/node_modules/
+# Google credentials and tokens
+**/credentials.json
+**/token.json

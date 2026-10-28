@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "backend": "cd FastAPI && ../venv/bin/uvicorn main:app --reload --port 8000",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
